@@ -1,0 +1,73 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    Justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15% 0 15%
+}
+a:hover {
+    text-decoration: underline;
+}
+nav img {
+    height: 20px;
+}
+
+main {
+    width: 50%;
+    margin: 5.4em auto;
+    text-align: center;
+}
+main img {
+    height: 90px
+}
+input {
+    width: 90%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 0.5px solid gainsboro;
+    z-index: ;
+}
+.button-main {
+    margin-top: 25px;
+}
+.button-container button {
+    padding: 1em;
+    border: none;
+    margin-right: 10px;
+}
+.lang {
+    margin-top: 30px;
+}
+p a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+footer {
+    background-color: gainsboro;
+    color: grey;
+}
+.footer-up {
+    padding: 1em;
+}
+.footer-down {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.left a {
+    margin-right: 1em;
+}
+.right a {
+    margin-right: 1em;
+}
+
